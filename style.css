@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 160px);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 35px;
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  background-color: black;
+  border-radius: 10%;
+  border: solid 5px grey;
+}
